@@ -1,0 +1,136 @@
+ body{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.container{
+    background-image: linear-gradient( 130deg, rgb(31, 255, 255) 30%, rgb(10, 122, 126) 90%);
+    padding: 100px;
+    z-index: 3;
+    color: black;
+    border-radius:0 70px 0 70px;
+}   
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+
+}
+
+.container form input,
+button{
+    display: inline-block;
+    width: 90%;
+    padding: 0px 20px;
+    line-height: 50px;
+    background-color: white;
+    border: 1px solid #e6e6e6 ;
+    border-bottom-width:3px ;
+    border-radius: 5px;
+    transition:all 0.3s ease ;
+    outline: none;
+
+}
+.container form input :last-child{
+    width: 100%;
+
+
+}
+
+.container form input{
+    caret-color: red;
+    margin-bottom: 20px;
+
+}
+
+.container form input[type="email"]:focus,
+.container form input[type="email"]:active,
+.container form input[type="password"]:active,
+.container form input[type="password"]:focus{
+    border-color: rgb(152, 151, 151);
+}
+.container button {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #f11a41;
+    background-size: 20px 20px;
+    border: 1px solid #f02146;
+    border-bottom-width:3px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+
+
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 20px ;
+    margin:0 0 20px;
+    border-radius: 2px solid #e6e6e6;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white; 
+    border-radius: 5px;
+
+}
+.box:hover,
+.box:focus{
+    transition: 1.3s;
+    box-shadow: 0 0 30px   rgb(36, 34, 34);
+}
+button:hover,
+button:focus {
+    background-color: #e6e6e6;
+    border: white;
+    color: #f11a41;
+    font-size: 1.1rem;
+    
+}
+
+.container:hover, 
+.container:focus{
+    transition:  1.5s;
+    background-image: linear-gradient( 135deg,rgb(55, 229, 119) 30%, rgb(20, 100, 157) 70%) ;
+    border-radius: 70px 0 70px 0;
+
+}
+
+
+.box a{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.1rem;
+
+  
+    
+}
+.box p {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 15px;
+}
+
+
+.box a:hover,
+.box a:focus{
+    transition: 0.8s;
+    transform: scale(120%);
+   
+}
